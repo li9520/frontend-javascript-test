@@ -2,6 +2,7 @@
   "name": "frontend-javascript-test",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://li9520.github.io/frontend-javascript-test",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.14.1",
@@ -31,7 +32,9 @@
     "test": "react-app-rewired test",
     "eject": "react-scripts eject",
     "lint": "eslint \"./src/**/*.{js,jsx,ts,tsx}\"",
-    "lint:fix": "eslint \"./src/**/*.{js,jsx,ts,tsx}\" --fix"
+    "lint:fix": "eslint \"./src/**/*.{js,jsx,ts,tsx}\" --fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -54,6 +57,7 @@
   "devDependencies": {
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
+    "gh-pages": "^6.0.0",
     "prettier": "^3.0.3",
     "react-app-rewire-alias": "^1.1.7",
     "react-app-rewired": "^2.2.1"

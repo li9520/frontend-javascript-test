@@ -1,6 +1,6 @@
 # Тестовое задание на позицию Junior frontend разработчик
 
-
+### **<a target="_blank" href="https://li9520.github.io/frontend-javascript-test/">Посмотреть</a>**
 ## Задание
 
 Необходимо разработать React-приложение поиска книг с помощью Google Books API. Документация: https://developers.google.com/books/docs/v1/using. Для авторизации запросов к API выбрать способ с предоставлением API key (https://developers.google.com/books/docs/v1/using#APIKey).
